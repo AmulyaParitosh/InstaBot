@@ -18,10 +18,10 @@ session = InstaPy(username=USERNAME, password=PASSWORD)
 session.login()
 
 session.set_action_delays(
-    enabled=True,
-    like=getran(1, 2),
-    comment=getran(1, 3),
-    follow=getran(1, 4),
+    # enabled=True,
+    # like=getran(1, 2),
+    # comment=getran(1, 3),
+    # follow=getran(1, 4),
     randomize=True,
     random_range_from=getran(1, 2),
     random_range_to=getran(3, 4)
